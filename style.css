@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;                               
+}
+
+body {
+    background-image: url(img/lorembg.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: 1600px 900px;
+    background-color: #FFF;
+    background-size: 1600px 900px;
+}
+
+header {
+    border: 2px solid #000;
+    background-color: gray;
+    width: 1260px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-image: url(img/117lor.webp);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: ;
+    background-size: 1400px 200px;
+}
+
+#logo {
+    background-image: url(img/logo.webp);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 160px 160px;
+    border: 2px solid #000;
+    float: left;
+    width: 160px;
+    height: 160px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#login {
+    border: 2px solid #000;
+    float: right;
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+header > section > ul {
+    margin-left: 110px;
+    margin-top: ;
+
+}
+
+header > section > ul > li {
+    float: left;
+    margin-left: 180px;
+}
+
+header > section > ul > li > a {
+    color: #000;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    line-height: 40px;
+    transition: all, 0.5s;
+}
+
+header > section > ul > li > a:hover {
+    color:;
+    background-color: #dfdfdf;
+    box-shadow: 2px 2px 4px rgba(10, 12, 11, 0.6);
+    transition: all, 0.4s;
+}
+
+header .ativo{
+    color:;
+    border-bottom: 3px solid #000;
+    background-color: #dfdfdf;
+    box-shadow: 2px 2px 4px rgba(10, 12, 11, 0.6);
+    border-radius: 5px;
+}
+
+nav {
+    width: 1263px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#navright {
+    border: 2px solid #000;
+    background-color: gray;
+    width: 618px;
+    height: 100px;
+    float: right;
+    background-image: url(img/loremwallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment:;
+    background-size: 900px 100%;
+}
+
+header section ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navleft {
+    border: 2px solid #000;
+    background-color: gray;
+    width: 618px;
+    height: 100px;
+    float: left;
+    background-image: url(img/loremwallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment:;
+    background-size: 900px 100%;
+}
+
+main {
+    width: 1260px;
+    height: 620px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+#asideleft {
+    border: 2px solid #000;
+    background-color: gray;
+    width: 260px;
+    height: 620px;
+    float: left;
+}
+
+.sectionaside {
+    border: 2px solid #000;
+    width: 210px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-image: url(img/lor.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment:;
+    background-size: 100% 100%;
+}
+
+article {
+    border: 2px solid #000;
+    background-color: gray;
+    width: 690px;
+    height: 620px;
+    float: left;
+    margin-left: 20px;    
+}
+
+#asideright{
+    border: 2px solid #000;
+    background-color: gray;
+    width: 260px;
+    height: 620px;
+    float: right;
+}
+
+.articlesectionshort{
+    border: 2px solid #000;
+    background-color: gray;
+    width: 321px;
+    height: 170px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    background-image: url(img/lor.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment:;
+    background-size: 100% 100%;
+}
+
+#articlesectionlong {
+    border: 2px solid #000;
+    background-color: gray;
+    width: 666px;
+    height: 170px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    background-image: url(img/lor.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment:;
+    background-size: 100% 100%;
+}
+
+footer{
+    border: 2px solid #000;
+    background-color: gray;
+    width: 1258px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
